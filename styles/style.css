@@ -1,0 +1,128 @@
+
+body{
+    background-color: rgb(241, 231, 231);
+}
+
+img {
+    height: 175px;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+
+#table{
+    border-radius: 25px;
+    background-color: rgb(39, 170, 39);
+    padding: 10px;
+    border: 5px solid brown;
+}
+
+#dealer-text{
+    padding: 0px 0px 0px 0px;
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    margin: 0px 0px 0px 50px;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;  
+    border-radius: 15px; 
+    width: 230px; }
+
+#player-text{
+    padding: 0px 0px 0px 0px;
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    margin: 0px 0px 0px 50px;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;  
+    border-radius: 15px; 
+    width: 200px; 
+}
+
+#dealer-hand{
+    height: 210px;
+    background-color: lightgreen;
+    border-radius: 25px;
+    margin: 30px;
+}
+
+#player-hand{
+    border-radius: 25px;
+    height: 210px;
+    background-color: lightgreen;
+    margin: 30px;
+
+}
+
+.buttons{
+    text-align: center;
+}
+
+#deal-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    border-radius: 15px; 
+    width: 150px;   
+}
+
+#hit-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    border-radius: 15px; 
+    width: 150px;   
+   
+    
+}
+
+#stand-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px; 
+    width: 150px;   
+         
+}
+
+#new-game-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px; 
+    width: 150px;   
+         
+}
+
+#message-center{
+    text-align: center;
+    font-size: 50px;
+}
+
