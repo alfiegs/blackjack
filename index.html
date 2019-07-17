@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Blackjack</title>
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
@@ -77,7 +77,10 @@
         //> Add event listeners for keys so you can use the keyboard to play
 
 
-
+        //PLAYER POINTS and DEALER POINTS VARIABLE
+        var playerPoints = 0;
+        var dealerPoints = 0;
+        var turnOver = "no";
 
 
         //CREATE THE DECK
@@ -102,7 +105,7 @@
 
         var aces = ["H", "D", "C", "S"];
         aces.forEach(function(element){
-            deck.push({value: 11, suit: element, imgURL: "JPEG/A" + element + ".jpg"})
+            deck.push({value: 0, suit: element, imgURL: "JPEG/A" + element + ".jpg"});
         })
         /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -111,10 +114,7 @@
         
 
 
-        //PLAYER POINTS and DEALER POINTS VARIABLE
-        var playerPoints = 0;
-        var dealerPoints = 0;
-        var turnOver = "no";
+
 
 
         //CREATE DOM ELEMENTS
